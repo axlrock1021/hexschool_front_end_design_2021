@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  width: 1287px;
+  margin: 0 auto;
+}
+
+.box-top {
+  display: flex;
+  background: #e7eeea;
+  margin: 5px;
+  border: 1px solid #e7eeea;
+  border-radius: 5px;
+}
+
+.box-top-img img {
+  padding: 10px;
+}
+
+.box-top-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37523d;
+  padding: 25px 5px;
+}
+
+.box-top-text p {
+  color: #405a46;
+  padding: 0px 10px 25px 5px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.box-middle {
+  display: flex;
+  background: #e7eeea;
+  margin: 45px 5px 45px 5px;
+  order: 1px solid #e7eeea;
+  border-radius: 5px;
+}
+
+.box-middle-contnet {
+  text-align: center;
+}
+
+.box-middle-contnet img {
+  padding-top: 10px;
+}
+
+.box-middle-contnet h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37523d;
+  padding: 15px 0px;
+}
+
+.box-middle-contnet p {
+  text-align: left;
+  color: #405a46;
+  font-size: 15px;
+  padding: 0px 10px 25px 20px;
+  line-height: 20px;
+}
+
+.box-bottom {
+  display: flex;
+  flex-direction: column;
+  background: #e7eeea;
+  margin: 45px 5px 45px 5px;
+  order: 1px solid #e7eeea;
+  border-radius: 5px;
+}
+
+.box-bottom-up-img {
+  padding: 20px;
+}
+
+.box-bottom-up-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37523d;
+  padding: 62px 0px 15px 0px;
+}
+
+.box-bottom-up-text p {
+  color: #405a46;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.box-bottom-top-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-bottom-up {
+  display: flex;
+}
+
+.box-bottom-down {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box-bottom-down-img {
+  padding: 20px;
+}
+
+.box-bottom-down-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37523d;
+  padding: 62px 0px 15px 0px;
+}
+
+.box-bottom-down-text p {
+  color: #405a46;
+  font-size: 15px;
+  padding-top: 10px;
+}
