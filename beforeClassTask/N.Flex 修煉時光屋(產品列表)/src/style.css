@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 945px;
+  display: flex;
+}
+
+.menu {
+  width: 325px;
+  margin: 5px;
+}
+
+.menu h2 {
+  background: #37523d;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu ul li {
+  border: 1px solid #e7eeea;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu ul li:hover {
+  background: #e7eeea;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #37523d;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 20px;
+}
+
+.content-list {
+  border: 1px solid #e7eeea;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.content-list-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-list-text h3 {
+  color: #37523d;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.content-list-text .money {
+  border-left: 1px solid #e7eeea;
+}
+
+.content-list a {
+  display: block;
+  color: #37523d;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  background: #e7eeea;
+  text-align: center;
+  padding: 25px;
+}
+
+.content-list a:hover {
+  background: greenyellow;
+}
